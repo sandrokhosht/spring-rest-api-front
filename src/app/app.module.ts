@@ -8,18 +8,21 @@ import { SearchDeleteComponent } from './search-delete/search-delete.component';
 import { UserRegistationService } from './user-registation.service';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { MatSliderModule } from '@angular/material/slider';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 
 @NgModule({
   declarations: [
     AppComponent,
     RegistrationComponent,
-    SearchDeleteComponent
+    SearchDeleteComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,   
   ],
   providers: [UserRegistationService],
   bootstrap: [AppComponent]
