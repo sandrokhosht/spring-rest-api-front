@@ -1,0 +1,30 @@
+
+body {
+    padding-top:50px;
+}
+fieldset {
+    border: thin solid black; 
+    border-radius: 4px;
+    padding: 20px;
+    padding-left: 40px;
+    background: #3a240415;
+}
+legend {
+   color:rgb(27, 12, 3);
+   font-style: italic;
+}
+.form-control {
+    width: 95%;
+}
+label small {
+    color: #678 !important;
+}
+span.req {
+    color:rgb(255, 115, 0);
+    font-size: 112%;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(155, 105, 11);
+}

@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('spring-rest-api-front app is running!');
+    expect(page.getTitleText()).toEqual('Welcome to user-registration-client!');
   });
 
   afterEach(async () => {
